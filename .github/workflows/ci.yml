@@ -12,4 +12,6 @@ jobs:
           distribution: 'adopt'
           cache: maven
       - name: Validate, build and run tests
-        run: mvn --batch-mode --update-snapshots verify /sqc-backend/pom.xml
+        run: |
+          cd ./sqc-backend
+          mvn --batch-mode --update-snapshots verify /sqc-backend/pom.xml
