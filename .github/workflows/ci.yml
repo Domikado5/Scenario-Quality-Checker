@@ -14,4 +14,4 @@ jobs:
       - name: Validate, build and run tests
         run: |
           cd ./sqc-backend
-          mvn --batch-mode --update-snapshots verify /sqc-backend/pom.xml
+          mvn --batch-mode --update-snapshots verify
