@@ -26,7 +26,7 @@ public class Visitor{
     public String getRaport(){
         logger.info("Initialized getRaport...");
         logger.debug(this.raport);
-        return this.raport;
+        return this.raport + this.getErrors();
     }
 
     public void visit(Scenario s){
@@ -47,7 +47,6 @@ public class Visitor{
             this.raport += step + "\n";
         }
         this.raport += "Błędy: \n";
-        this.raport += this.getErrors();
     }
 
 
