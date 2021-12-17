@@ -1,3 +1,12 @@
-pl\put\poznan\sqc\logic\TextTransformer.class
-pl\put\poznan\sqc\rest\TextTransformerController.class
+pl\put\poznan\sqc\logic\Element.class
+pl\put\poznan\sqc\logic\FinderVisitor.class
+pl\put\poznan\sqc\logic\Visitor.class
+pl\put\poznan\sqc\logic\PrinterVisitor.class
+pl\put\poznan\sqc\logic\Step.class
+pl\put\poznan\sqc\rest\ScenarioQualityCheckerController.class
+pl\put\poznan\sqc\logic\CounterVisitor.class
+pl\put\poznan\sqc\logic\Dummy.class
+pl\put\poznan\sqc\logic\Scenario.class
+pl\put\poznan\sqc\logic\QualityCheckerVisitor.class
+pl\put\poznan\sqc\logic\Actor.class
 pl\put\poznan\sqc\app\ScenarioQualityCheckerApplication.class

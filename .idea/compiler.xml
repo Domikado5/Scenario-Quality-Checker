@@ -6,16 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="io-project-architecture" />
+        <module name="scenario-quality-checker-architecture" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="io-project-architecture" target="11" />
+      <module name="scenario-quality-checker-architecture" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="io-project-architecture" options="-parameters" />
+      <module name="scenario-quality-checker-architecture" options="-parameters" />
     </option>
   </component>
 </project>
