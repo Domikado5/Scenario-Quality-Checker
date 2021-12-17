@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Scenario-Quality-Checker.iml" filepath="$PROJECT_DIR$/.idea/Scenario-Quality-Checker.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sqc-backend/io-project-architecture.iml" filepath="$PROJECT_DIR$/sqc-backend/io-project-architecture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sqc-backend/scenario-quality-checker-architecture.iml" filepath="$PROJECT_DIR$/sqc-backend/scenario-quality-checker-architecture.iml" />
     </modules>
   </component>
 </project>

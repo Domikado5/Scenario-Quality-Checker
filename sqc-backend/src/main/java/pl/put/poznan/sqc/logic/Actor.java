@@ -4,7 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import pl.put.poznan.sqc.rest.ScenarioQualityCheckerController;
 
-public class Actor extends Element{
+public class Actor{
     private static final Logger logger = LoggerFactory.getLogger(Actor.class);
     private String name;
     private Boolean system;
@@ -26,12 +26,5 @@ public class Actor extends Element{
         logger.info("Initialized getSystem...");
         logger.debug(this.system.toString());
         return this.system;
-    }
-
-    @Override
-    public void accept(Visitor v){
-        logger.info("Passed Actor to Visitor");
-        logger.debug(v.toString());
-        v.visit(this);
     }
 }
