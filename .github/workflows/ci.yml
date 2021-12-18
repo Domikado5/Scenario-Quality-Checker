@@ -15,7 +15,4 @@ jobs:
         run: |
           cd ./sqc-backend
           mvn --batch-mode --update-snapshots verify
-      - name: Build jar
-      - run: |
-          cd ./sqc-backend
           mvn clean compile assembly:single
