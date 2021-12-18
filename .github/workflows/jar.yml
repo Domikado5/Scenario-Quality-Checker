@@ -24,7 +24,8 @@ jobs:
       run: |
         cd ./sqc-backend
         rm -rf jars
-        cp -rf target/*.jar jars
+        mkdir jars
+        cp -rf target/*.jar jars/
  
     - name: Commit jar changes
       run: |
