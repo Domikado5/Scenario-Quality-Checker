@@ -14,6 +14,18 @@ jobs:
       with:
         java-version: '11'
         distribution: 'adopt'
+        
+    - name: Compile project to jar
+      run: |
+        cd ./sqc-backend
+        mvn compile assembly:single
+ 
+    - name: Copy jar to folder
+      run: |
+        cd ./sqc-backend
+        rm -rf jars
+        mkdir jars
+        cp -rf target/*.jar jars/
  
     - name: Build docs with Maven
       run: |
@@ -23,13 +35,13 @@ jobs:
     - name: Copy to Documentation Website Location
       run: |
         cd ./sqc-backend
-        rm -rf docs
-        cp -rf target/site/apidocs/. docs/
+        rm -rf ../docs
+        cp -rf target/site/apidocs/. ../docs/
     - name: Tidy up the javadocs
       id: tidy
       uses: cicirello/javadoc-cleanup@v1
       with:
-        path-to-root: sqc-backend/docs
+        path-to-root: docs
  
     - name: Log javadoc-cleanup output
       run: |
