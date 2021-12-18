@@ -38,8 +38,8 @@ jobs:
     - name: Commit documentation changes
       run: |
         if [[ `git status --porcelain` ]]; then
-          git config --global user.name 'USERNAME'
-          git config --global user.email 'USER-GITHUB-EMAIL'
+          git config --global user.name 'Domikado5'
+          git config --global user.email 'dominik.sawicki52@gmail.com'
           git add -A
           git commit -m "Automated API website updates."
           git push
