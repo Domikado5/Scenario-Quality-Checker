@@ -2,6 +2,7 @@
 
 
 
+
 ## Diagram Klas UML:
 
 ![uml class diagram](uml.svg)
