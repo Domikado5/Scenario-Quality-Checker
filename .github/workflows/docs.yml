@@ -16,7 +16,9 @@ jobs:
         distribution: 'adopt'
  
     - name: Build docs with Maven
-      run: mvn javadoc:javadoc
+      run: |
+        cd ./sqc-backend
+        mvn javadoc:javadoc
  
     - name: Copy to Documentation Website Location
       run: |
