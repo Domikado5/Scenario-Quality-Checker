@@ -1,1 +1,2 @@
-/sqc-backend/target
+/sqc-backend/target/classes/pl/put/poznan/sqc/logic
+/sqc-backend/target/maven-archiver
