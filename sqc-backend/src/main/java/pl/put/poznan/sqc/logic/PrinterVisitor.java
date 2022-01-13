@@ -16,7 +16,7 @@ public class PrinterVisitor implements Visitor{
         return results;
     };
 
-    private Map<List<String>, Integer> printStep(Step step, Integer Level, Integer count){
+    private Map<List<String>, Integer> printStep(Step step, Integer Level, Integer count, Integer maxLevel){
         logger.info("Initialized print Step...");
         if (Level == null){
             Level = 0;
@@ -31,9 +31,9 @@ public class PrinterVisitor implements Visitor{
         stepItem += step.getContent();
         result.add(stepItem);
         Map<List<String>, Integer> hashResult = new HashMap<>();
-        if (step.getSubScenario().size() > 0){
+        if (step.getSubScenario().size() > 0 && (maxLevel == 0 || Level+1 < maxLevel)){
             List<String> combinedResult = new ArrayList<>();
-            Map.Entry<List<String>, Integer> entry = this.printSubScenario(step.getSubScenario(), Level+1, count).entrySet().iterator().next();
+            Map.Entry<List<String>, Integer> entry = this.printSubScenario(step.getSubScenario(), Level+1, count, maxLevel).entrySet().iterator().next();
             count = entry.getValue();
             combinedResult.addAll(result);
             combinedResult.addAll(entry.getKey());
@@ -47,12 +47,12 @@ public class PrinterVisitor implements Visitor{
         return hashResult;
     };
 
-    private Map<List<String>, Integer> printSubScenario(List<Step> steps, int Level, int count){
+    private Map<List<String>, Integer> printSubScenario(List<Step> steps, int Level, int count, int maxLevel){
         logger.info("Initialized print SubScenario...");
         List<String> result = new ArrayList<>();
         Map<List<String>, Integer> hashResult = new HashMap<>();
         for (Step step: steps) {
-            Map.Entry<List<String>, Integer> entry = this.printStep(step, Level, count).entrySet().iterator().next();
+            Map.Entry<List<String>, Integer> entry = this.printStep(step, Level, count, maxLevel).entrySet().iterator().next();
             count = entry.getValue();
             result.addAll(entry.getKey());
         }
@@ -64,6 +64,8 @@ public class PrinterVisitor implements Visitor{
     @Override
     public void visit(Scenario s){
         logger.info("Visiting Scenario Object...");
+        Integer maxLevel = s.getMaxLevel();
+
         // Print title
         List<String> title = new ArrayList<>();
         title.add(s.getTitle());
@@ -82,9 +84,9 @@ public class PrinterVisitor implements Visitor{
         results.add(system_actors);
         // Print Steps and Sub-scenarios
         List<String> steps = new ArrayList<>();
-        Integer count = 0;
+        Integer count = 1;
         for (Step step: s.getSteps()){
-            Map.Entry<List<String>, Integer> entry = this.printStep(step,0, count).entrySet().iterator().next();
+            Map.Entry<List<String>, Integer> entry = this.printStep(step,0, count, maxLevel).entrySet().iterator().next();
             count = entry.getValue();
             steps.addAll(entry.getKey());
         }
