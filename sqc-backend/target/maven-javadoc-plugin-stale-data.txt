@@ -18,13 +18,13 @@
 -docencoding
 'UTF-8'
 -doctitle
-'scenario-quality-checker-architecture 1.2.3 API'
+'scenario-quality-checker-architecture 1.2.4 API'
 -linkoffline
 'https://docs.oracle.com/en/java/javase/11/docs/api' '/home/runner/work/Scenario-Quality-Checker/Scenario-Quality-Checker/sqc-backend/target/javadoc-bundle-options'
 -use
 -version
 -windowtitle
-'scenario-quality-checker-architecture 1.2.3 API'
+'scenario-quality-checker-architecture 1.2.4 API'
 pl.put.poznan.sqc.app
 pl.put.poznan.sqc.rest
 pl.put.poznan.sqc.logic
@@ -36,57 +36,57 @@ pl.put.poznan.sqc.logic
 pl.put.poznan.sqc.logic
 pl.put.poznan.sqc.logic
 pl.put.poznan.sqc.logic
-/home/runner/.m2/repository/org/springframework/boot/spring-boot-starter/2.3.3.RELEASE/spring-boot-starter-2.3.3.RELEASE.jar = 1642096461506
-/home/runner/.m2/repository/org/springframework/boot/spring-boot/2.3.3.RELEASE/spring-boot-2.3.3.RELEASE.jar = 1642096461982
-/home/runner/.m2/repository/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE.jar = 1642096462006
-/home/runner/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.3.3.RELEASE/spring-boot-autoconfigure-2.3.3.RELEASE.jar = 1642096462006
-/home/runner/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.3.3.RELEASE/spring-boot-starter-logging-2.3.3.RELEASE.jar = 1642096461682
-/home/runner/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar = 1642096463066
-/home/runner/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar = 1642096463122
-/home/runner/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.13.3/log4j-to-slf4j-2.13.3.jar = 1642096463074
-/home/runner/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar = 1642096463130
-/home/runner/.m2/repository/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30.jar = 1642096463090
-/home/runner/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar = 1642096463090
-/home/runner/.m2/repository/org/springframework/spring-core/5.2.8.RELEASE/spring-core-5.2.8.RELEASE.jar = 1642096462074
-/home/runner/.m2/repository/org/springframework/spring-jcl/5.2.8.RELEASE/spring-jcl-5.2.8.RELEASE.jar = 1642096461930
-/home/runner/.m2/repository/org/yaml/snakeyaml/1.26/snakeyaml-1.26.jar = 1642096463142
-/home/runner/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.3.3.RELEASE/spring-boot-starter-web-2.3.3.RELEASE.jar = 1642096462074
-/home/runner/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.3.3.RELEASE/spring-boot-starter-json-2.3.3.RELEASE.jar = 1642096462102
-/home/runner/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.2/jackson-databind-2.11.2.jar = 1642096463250
-/home/runner/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.2/jackson-annotations-2.11.2.jar = 1642096463126
-/home/runner/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.2/jackson-core-2.11.2.jar = 1642096463190
-/home/runner/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.11.2/jackson-datatype-jdk8-2.11.2.jar = 1642096463158
-/home/runner/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.2/jackson-datatype-jsr310-2.11.2.jar = 1642096463166
-/home/runner/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.11.2/jackson-module-parameter-names-2.11.2.jar = 1642096463178
-/home/runner/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.3.3.RELEASE/spring-boot-starter-tomcat-2.3.3.RELEASE.jar = 1642096462246
-/home/runner/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.37/tomcat-embed-core-9.0.37.jar = 1642096463454
-/home/runner/.m2/repository/org/glassfish/jakarta.el/3.0.3/jakarta.el-3.0.3.jar = 1642096463202
-/home/runner/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.37/tomcat-embed-websocket-9.0.37.jar = 1642096463230
-/home/runner/.m2/repository/org/springframework/spring-web/5.2.8.RELEASE/spring-web-5.2.8.RELEASE.jar = 1642096462478
-/home/runner/.m2/repository/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE.jar = 1642096462446
-/home/runner/.m2/repository/org/springframework/spring-webmvc/5.2.8.RELEASE/spring-webmvc-5.2.8.RELEASE.jar = 1642096462458
-/home/runner/.m2/repository/org/springframework/spring-aop/5.2.8.RELEASE/spring-aop-5.2.8.RELEASE.jar = 1642096462354
-/home/runner/.m2/repository/org/springframework/spring-expression/5.2.8.RELEASE/spring-expression-5.2.8.RELEASE.jar = 1642096462378
-/home/runner/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar = 1642096463526
-/home/runner/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/2.3.3.RELEASE/spring-boot-configuration-processor-2.3.3.RELEASE.jar = 1642096462910
-/home/runner/work/Scenario-Quality-Checker/Scenario-Quality-Checker/sqc-backend/src/main/java = 1642096444250
-/home/runner/work/Scenario-Quality-Checker/Scenario-Quality-Checker/sqc-backend/target/site/apidocs/search.js = 1642096518891
-/home/runner/work/Scenario-Quality-Checker/Scenario-Quality-Checker/sqc-backend/target/site/apidocs/index-all.html = 1642096518851
-/home/runner/work/Scenario-Quality-Checker/Scenario-Quality-Checker/sqc-backend/target/site/apidocs/allclasses.html = 1642096518879
-/home/runner/work/Scenario-Quality-Checker/Scenario-Quality-Checker/sqc-backend/target/site/apidocs/index.html = 1642096518887
-/home/runner/work/Scenario-Quality-Checker/Scenario-Quality-Checker/sqc-backend/target/site/apidocs/member-search-index.js = 1642096518851
-/home/runner/work/Scenario-Quality-Checker/Scenario-Quality-Checker/sqc-backend/target/site/apidocs/constant-values.html = 1642096518731
-/home/runner/work/Scenario-Quality-Checker/Scenario-Quality-Checker/sqc-backend/target/site/apidocs/overview-summary.html = 1642096518887
-/home/runner/work/Scenario-Quality-Checker/Scenario-Quality-Checker/sqc-backend/target/site/apidocs/allclasses-index.html = 1642096518859
-/home/runner/work/Scenario-Quality-Checker/Scenario-Quality-Checker/sqc-backend/target/site/apidocs/type-search-index.zip = 1642096518851
-/home/runner/work/Scenario-Quality-Checker/Scenario-Quality-Checker/sqc-backend/target/site/apidocs/stylesheet.css = 1642096518891
-/home/runner/work/Scenario-Quality-Checker/Scenario-Quality-Checker/sqc-backend/target/site/apidocs/package-search-index.zip = 1642096518851
-/home/runner/work/Scenario-Quality-Checker/Scenario-Quality-Checker/sqc-backend/target/site/apidocs/allpackages-index.html = 1642096518867
-/home/runner/work/Scenario-Quality-Checker/Scenario-Quality-Checker/sqc-backend/target/site/apidocs/package-search-index.js = 1642096518843
-/home/runner/work/Scenario-Quality-Checker/Scenario-Quality-Checker/sqc-backend/target/site/apidocs/overview-tree.html = 1642096518811
-/home/runner/work/Scenario-Quality-Checker/Scenario-Quality-Checker/sqc-backend/target/site/apidocs/help-doc.html = 1642096518891
-/home/runner/work/Scenario-Quality-Checker/Scenario-Quality-Checker/sqc-backend/target/site/apidocs/element-list = 1642096518711
-/home/runner/work/Scenario-Quality-Checker/Scenario-Quality-Checker/sqc-backend/target/site/apidocs/type-search-index.js = 1642096518851
-/home/runner/work/Scenario-Quality-Checker/Scenario-Quality-Checker/sqc-backend/target/site/apidocs/script.js = 1642096518891
-/home/runner/work/Scenario-Quality-Checker/Scenario-Quality-Checker/sqc-backend/target/site/apidocs/deprecated-list.html = 1642096518871
-/home/runner/work/Scenario-Quality-Checker/Scenario-Quality-Checker/sqc-backend/target/site/apidocs/member-search-index.zip = 1642096518851
+/home/runner/.m2/repository/org/springframework/boot/spring-boot-starter/2.3.3.RELEASE/spring-boot-starter-2.3.3.RELEASE.jar = 1642118053470
+/home/runner/.m2/repository/org/springframework/boot/spring-boot/2.3.3.RELEASE/spring-boot-2.3.3.RELEASE.jar = 1642118053918
+/home/runner/.m2/repository/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE.jar = 1642118053950
+/home/runner/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.3.3.RELEASE/spring-boot-autoconfigure-2.3.3.RELEASE.jar = 1642118053862
+/home/runner/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.3.3.RELEASE/spring-boot-starter-logging-2.3.3.RELEASE.jar = 1642118053558
+/home/runner/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar = 1642118054786
+/home/runner/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar = 1642118054890
+/home/runner/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.13.3/log4j-to-slf4j-2.13.3.jar = 1642118054838
+/home/runner/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar = 1642118054886
+/home/runner/.m2/repository/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30.jar = 1642118054838
+/home/runner/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar = 1642118054826
+/home/runner/.m2/repository/org/springframework/spring-core/5.2.8.RELEASE/spring-core-5.2.8.RELEASE.jar = 1642118054010
+/home/runner/.m2/repository/org/springframework/spring-jcl/5.2.8.RELEASE/spring-jcl-5.2.8.RELEASE.jar = 1642118053814
+/home/runner/.m2/repository/org/yaml/snakeyaml/1.26/snakeyaml-1.26.jar = 1642118054886
+/home/runner/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.3.3.RELEASE/spring-boot-starter-web-2.3.3.RELEASE.jar = 1642118053974
+/home/runner/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.3.3.RELEASE/spring-boot-starter-json-2.3.3.RELEASE.jar = 1642118053974
+/home/runner/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.2/jackson-databind-2.11.2.jar = 1642118054966
+/home/runner/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.2/jackson-annotations-2.11.2.jar = 1642118054894
+/home/runner/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.2/jackson-core-2.11.2.jar = 1642118054934
+/home/runner/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.11.2/jackson-datatype-jdk8-2.11.2.jar = 1642118054926
+/home/runner/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.2/jackson-datatype-jsr310-2.11.2.jar = 1642118054930
+/home/runner/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.11.2/jackson-module-parameter-names-2.11.2.jar = 1642118054926
+/home/runner/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.3.3.RELEASE/spring-boot-starter-tomcat-2.3.3.RELEASE.jar = 1642118054102
+/home/runner/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.37/tomcat-embed-core-9.0.37.jar = 1642118055158
+/home/runner/.m2/repository/org/glassfish/jakarta.el/3.0.3/jakarta.el-3.0.3.jar = 1642118054982
+/home/runner/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.37/tomcat-embed-websocket-9.0.37.jar = 1642118054982
+/home/runner/.m2/repository/org/springframework/spring-web/5.2.8.RELEASE/spring-web-5.2.8.RELEASE.jar = 1642118054258
+/home/runner/.m2/repository/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE.jar = 1642118054254
+/home/runner/.m2/repository/org/springframework/spring-webmvc/5.2.8.RELEASE/spring-webmvc-5.2.8.RELEASE.jar = 1642118054458
+/home/runner/.m2/repository/org/springframework/spring-aop/5.2.8.RELEASE/spring-aop-5.2.8.RELEASE.jar = 1642118054214
+/home/runner/.m2/repository/org/springframework/spring-expression/5.2.8.RELEASE/spring-expression-5.2.8.RELEASE.jar = 1642118054230
+/home/runner/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar = 1642118055318
+/home/runner/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/2.3.3.RELEASE/spring-boot-configuration-processor-2.3.3.RELEASE.jar = 1642118054702
+/home/runner/work/Scenario-Quality-Checker/Scenario-Quality-Checker/sqc-backend/src/main/java = 1642118037097
+/home/runner/work/Scenario-Quality-Checker/Scenario-Quality-Checker/sqc-backend/target/site/apidocs/search.js = 1642118119658
+/home/runner/work/Scenario-Quality-Checker/Scenario-Quality-Checker/sqc-backend/target/site/apidocs/index-all.html = 1642118119610
+/home/runner/work/Scenario-Quality-Checker/Scenario-Quality-Checker/sqc-backend/target/site/apidocs/allclasses.html = 1642118119634
+/home/runner/work/Scenario-Quality-Checker/Scenario-Quality-Checker/sqc-backend/target/site/apidocs/index.html = 1642118119638
+/home/runner/work/Scenario-Quality-Checker/Scenario-Quality-Checker/sqc-backend/target/site/apidocs/member-search-index.js = 1642118119602
+/home/runner/work/Scenario-Quality-Checker/Scenario-Quality-Checker/sqc-backend/target/site/apidocs/constant-values.html = 1642118119490
+/home/runner/work/Scenario-Quality-Checker/Scenario-Quality-Checker/sqc-backend/target/site/apidocs/overview-summary.html = 1642118119642
+/home/runner/work/Scenario-Quality-Checker/Scenario-Quality-Checker/sqc-backend/target/site/apidocs/allclasses-index.html = 1642118119618
+/home/runner/work/Scenario-Quality-Checker/Scenario-Quality-Checker/sqc-backend/target/site/apidocs/type-search-index.zip = 1642118119602
+/home/runner/work/Scenario-Quality-Checker/Scenario-Quality-Checker/sqc-backend/target/site/apidocs/stylesheet.css = 1642118119650
+/home/runner/work/Scenario-Quality-Checker/Scenario-Quality-Checker/sqc-backend/target/site/apidocs/package-search-index.zip = 1642118119602
+/home/runner/work/Scenario-Quality-Checker/Scenario-Quality-Checker/sqc-backend/target/site/apidocs/allpackages-index.html = 1642118119626
+/home/runner/work/Scenario-Quality-Checker/Scenario-Quality-Checker/sqc-backend/target/site/apidocs/package-search-index.js = 1642118119598
+/home/runner/work/Scenario-Quality-Checker/Scenario-Quality-Checker/sqc-backend/target/site/apidocs/overview-tree.html = 1642118119570
+/home/runner/work/Scenario-Quality-Checker/Scenario-Quality-Checker/sqc-backend/target/site/apidocs/help-doc.html = 1642118119646
+/home/runner/work/Scenario-Quality-Checker/Scenario-Quality-Checker/sqc-backend/target/site/apidocs/element-list = 1642118119438
+/home/runner/work/Scenario-Quality-Checker/Scenario-Quality-Checker/sqc-backend/target/site/apidocs/type-search-index.js = 1642118119602
+/home/runner/work/Scenario-Quality-Checker/Scenario-Quality-Checker/sqc-backend/target/site/apidocs/script.js = 1642118119650
+/home/runner/work/Scenario-Quality-Checker/Scenario-Quality-Checker/sqc-backend/target/site/apidocs/deprecated-list.html = 1642118119630
+/home/runner/work/Scenario-Quality-Checker/Scenario-Quality-Checker/sqc-backend/target/site/apidocs/member-search-index.zip = 1642118119606
