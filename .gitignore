@@ -1,2 +1,7 @@
 /sqc-backend/target/classes/pl/put/poznan/sqc/logic
 /sqc-backend/target/maven-archiver
+/sqc-backend/target/classes
+/sqc-backend/target/archive-tmp
+/sqc-backend/target/generated-sources
+/sqc-backend/target/maven-status
+/sqc-backend/target/javadoc-bundle-options
