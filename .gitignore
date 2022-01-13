@@ -5,3 +5,4 @@
 /sqc-backend/target/generated-sources
 /sqc-backend/target/maven-status
 /sqc-backend/target/javadoc-bundle-options
+/sqc-frontend/ui/node_modules/

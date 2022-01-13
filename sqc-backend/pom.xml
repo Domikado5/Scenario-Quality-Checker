@@ -27,7 +27,7 @@
     <groupId>pl.put.poznan</groupId>
     <artifactId>scenario-quality-checker-architecture</artifactId>
 
-    <version>1.2.3</version>
+    <version>1.2.4</version>
 
     <packaging>jar</packaging>
 

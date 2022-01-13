@@ -25,6 +25,7 @@ public class ScenarioQualityCheckerController {
     @Autowired
     private ObjectMapper mapper;
 
+    @CrossOrigin(origins = "http://localhost:8080")
     @RequestMapping(method = RequestMethod.POST, produces = "application/json")
     public ObjectNode post(@RequestBody Scenario scenario) {
 
