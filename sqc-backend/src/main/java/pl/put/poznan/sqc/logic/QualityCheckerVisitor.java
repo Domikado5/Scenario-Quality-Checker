@@ -34,13 +34,16 @@ public class QualityCheckerVisitor implements Visitor{
             if (a.getName().length() == 0){
                 if (a.getSystem()){
                     errors.add("Aktor: NAZWA AKTORA SYSTEMOWEGO NIE MOŻE BYĆ PUSTA");
+                    break;
                 }else {
                     errors.add("Aktor: NAZWA AKTORA NIE MOŻE BYĆ PUSTA");
+                    break;
                 }
             }
             // Check If there are duplicate actors
             if (Collections.frequency(actors, a) > 1){
                 errors.add("Aktor: AKTOR NIE MOŻE BYĆ POWIELONY");
+                break;
             }
         }
 
